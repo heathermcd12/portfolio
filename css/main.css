@@ -60,6 +60,18 @@ a {
     
 }
 
+.portfolio {
+    text-align: center;
+}
+
+.portfolio-img {
+    padding-top: 30%;
+    background: #3f5cff no-repeat center center;
+    background-size:contain;
+    max-width: 90%;
+    height: auto;
+}
+
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
