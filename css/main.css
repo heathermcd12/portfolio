@@ -1,0 +1,85 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: block;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: #3f5cff;
+    text-decoration: none;
+}
+
+.masthead {
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.nav a {
+    display: block;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-img {
+    padding-top: 56.25%;
+    background: #3f5cff no-repeat center center;
+    background-size: cover;
+    
+}
+
+@media only screen and (min-width: 25em) {
+    .nav li {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    .nav li {
+        display: inline-block;
+    }
+    .nav {
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .nav li {
+        display: inline-block;
+    }
+    .nav {
+        text-align: right;
+    }
+}
