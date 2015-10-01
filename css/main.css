@@ -59,11 +59,7 @@ a {
 
 .portfolio {
     text-align: center;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    display: inline;
 }
 
 p {
@@ -82,10 +78,7 @@ p {
     .logo {
         width: 140px;
     }
-    
-    .portfolio-img {
-        margin: 5px;
-    }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -104,9 +97,6 @@ p {
         width: 140px;
     }
     
-    .portfolio-img {
-        margin: 15px;
-    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -124,10 +114,6 @@ p {
     .logo {
         width: 180px;
         margin: 10px;
-    }
-    
-    .portfolio-img {
-        margin: 30px;
     }
 
 }
