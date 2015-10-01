@@ -35,8 +35,6 @@ a {
     text-decoration: none;
 }
 
-.masthead {
-}
 
 .nav {
     margin: 0;
@@ -55,26 +53,38 @@ a {
 
 .banner-img {
     padding-top: 56.25%;
-    background: #3f5cff no-repeat center center;
+    background: #cc3e00 no-repeat center center;
     background-size: cover;
-    
 }
 
 .portfolio {
     text-align: center;
 }
 
-.portfolio-img {
-    padding-top: 30%;
-    background: #3f5cff no-repeat center center;
-    background-size:contain;
-    max-width: 90%;
+img {
+    max-width: 100%;
     height: auto;
+}
+
+p {
+    color: #3f5cff;
 }
 
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
+    }
+    
+    .banner-img {
+        margin: 5px;
+    }
+    
+    .logo {
+        width: 140px;
+    }
+    
+    .portfolio-img {
+        margin: 5px;
     }
 }
 
@@ -85,6 +95,18 @@ a {
     .nav {
         text-align: right;
     }
+    
+    .banner-img {
+        margin: 15px;
+    }
+    
+    .logo {
+        width: 140px;
+    }
+    
+    .portfolio-img {
+        margin: 15px;
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -94,4 +116,18 @@ a {
     .nav {
         text-align: right;
     }
+    
+    .banner-img {
+        margin: 30px;
+    }
+    
+    .logo {
+        width: 180px;
+        margin: 10px;
+    }
+    
+    .portfolio-img {
+        margin: 30px;
+    }
+
 }
