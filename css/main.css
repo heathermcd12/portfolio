@@ -73,6 +73,10 @@ p {
     color: #3f5cff;
 }
 
+.left-text {
+    text-align: left;
+}
+
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
@@ -85,7 +89,6 @@ p {
     .logo {
         width: 140px;
     }
-
 }
 
 @media only screen and (min-width: 38em) {
