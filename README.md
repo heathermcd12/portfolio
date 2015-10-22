@@ -1,6 +1,6 @@
 # Heather Lynn
 
-###*Dreamer & Doer*
+###*Storyteller, dreamer and doer*
 
 I love the world of design and have become emersed in motion, illustration and branding. 
 

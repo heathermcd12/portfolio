@@ -1,11 +1,22 @@
 ---
-user: Heather Lynn
-title: Dreamer & Doer
-intro: I love the world of design and have become emersed in motion, illustration and branding.
-fact: 
-    1. I love black and white, colour can sometimes overwhelm the overall design.
-    2. I have unruly, curly hair that has a life of its own.
-    3. Fun-loving illustrator that can yammer on about everything.
-    4. I'm handsy, in a non-threatning way. I love doing hands on projects, that is where I can fully let out all my creativity. 
+name: portfolio piece 1
 
+titleconcept:concept
+
+concept: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non bibendum tortor. Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui, vehicula a augue sed.
+
+titlebuilding:Title
+
+process:Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui,
+
+src: image-1.jpg caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+src: image-1.jpg caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+src: image-1.jpg caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+imgfinal: - src: image-1.jpg caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. - src: image-1.jpg caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+src: image-1.jpg caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+tools/programs: - tool one - tool - big tool
 ---
