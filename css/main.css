@@ -42,12 +42,10 @@ a {
     text-decoration: none;
 }
 
-
 .nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
 }
 
 .nav a {
@@ -86,7 +84,7 @@ p {
     }
     
     .logo {
-        width: 140px;
+        width: 160px;
     }
 }
 
@@ -99,7 +97,7 @@ p {
     }
     
     .logo {
-        width: 140px;
+        width: 200px;
     }
     
 }
@@ -113,7 +111,7 @@ p {
     }
     
     .logo {
-        width: 180px;
+        width: 240px;
         margin: 10px;
     }
 
