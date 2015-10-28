@@ -56,12 +56,6 @@ a {
     text-align: center;
 }
 
-.banner-img {
-    padding-top: 56.25%;
-    background: #cc3e00 no-repeat center center;
-    background-size: cover;
-}
-
 .portfolio {
     text-align: center;
 }
@@ -77,6 +71,8 @@ p {
 .left-text {
     text-align: left;
 }
+
+
 
 @media only screen and (min-width: 25em) {
     .nav li {
@@ -97,7 +93,7 @@ p {
     }
     
     .logo {
-        width: 200px;
+        width: 190px;
     }
     
 }
@@ -111,7 +107,7 @@ p {
     }
     
     .logo {
-        width: 240px;
+        width: 220px;
         margin: 10px;
     }
 }
