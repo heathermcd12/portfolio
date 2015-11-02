@@ -68,8 +68,13 @@ p {
     color: #3f5cff;
 }
 
-.left-text {
+.about {
     text-align: left;
+}
+
+.space {
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -107,5 +112,10 @@ p {
     .logo {
         width: 220px;
         margin: 10px;
+    }
+    
+    .space {   
+    margin-left: 150px;
+    margin-right: 150px;
     }
 }
