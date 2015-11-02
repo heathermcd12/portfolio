@@ -81,7 +81,6 @@ p {
     color: #3f5cff;
 }
  
-
 .about {
     text-align: left;
 }
@@ -111,6 +110,10 @@ p {
 
 .btn-video {
     margin: 0;
+}
+
+.last-img {
+    padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 25em) {
