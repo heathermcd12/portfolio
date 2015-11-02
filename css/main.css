@@ -60,12 +60,20 @@ a {
     text-align: center;
 }
 
+h1 {
+    color: #3f5cff;
+}
+
+h2 {
+    color: #3f5cff;
+}
+
 h3 {
     color: #3f5cff;
 }
 
 p {
-    color: #3f5cff;
+    color: black;
 }
 
 .about {
