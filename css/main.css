@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Cutive Mono", serif;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -120,6 +121,16 @@ p {
     color: #3f5cff;
 }
 
+.info {
+    text-align: left;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.portfolio-img-link img:hover{
+    outline: 3px solid #3f5cff;
+}
+
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
@@ -136,10 +147,6 @@ p {
     
     .logo {
         width: 160px;
-    }
-    
-    .intro {
-        font-size: 16px;
     }
     
     p {
@@ -163,11 +170,7 @@ p {
     .logo {
         width: 180px;
     }
-    
-    .intro {
-        font-size: 16px;
-    }
-    
+
     p {
         font-size: 18px;
     }
@@ -196,11 +199,7 @@ p {
         margin-left: 150px;
         margin-right: 150px;
     }
-    
-    .intro {
-        font-size: 18px;
-    }
-    
+
     p {
         font-size: 20px;
     }
