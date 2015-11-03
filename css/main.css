@@ -59,18 +59,19 @@ a {
 
 .portfolio {
     text-align: center;
-}
+} 
 
 h1 {
-    color: #3f5cff;
+    line-height: 5%;
 }
 
 h2 {
-    color: #3f5cff;
+    line-height: 5%;
 }
 
 h3 {
     color: black;
+    line-height: 5%;
 }
 
 p {
@@ -116,13 +117,29 @@ p {
     padding-bottom: 50px;
 }
 
+.link {
+    color: #3f5cff;
+}
+
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
     }
+    .nav {
+        font-size: 16px;
+        text-align: center;
+    }
     
     .logo {
         width: 160px;
+    }
+    
+    .intro {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 16px;
     }
 }
 
@@ -132,12 +149,20 @@ p {
     }
     .nav {
         text-align: right;
+        font-size: 18px;
     }
     
     .logo {
-        width: 190px;
+        width: 180px;
     }
     
+    .intro {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -146,15 +171,25 @@ p {
     }
     .nav {
         text-align: right;
+        font-size: 20px;
+        padding-top: 15px;
     }
     
     .logo {
-        width: 220px;
+        width: 200px;
         margin: 10px;
     }
     
     .space {   
-    margin-left: 150px;
-    margin-right: 150px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .intro {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 16px;
     }
 }
