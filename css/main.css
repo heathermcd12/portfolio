@@ -53,6 +53,10 @@ a {
     display: block;
 }
 
+.top-nav {
+    padding-top: 20px;
+}
+
 .banner {
     text-align: center;
 }
@@ -65,12 +69,7 @@ h1 {
     line-height: 5%;
 }
 
-h2 {
-    line-height: 5%;
-}
-
-h3 {
-    color: black;
+h5 {
     line-height: 5%;
 }
 
@@ -125,9 +124,14 @@ p {
     .nav li {
         display: inline-block;
     }
+    
     .nav {
         font-size: 16px;
         text-align: center;
+    }
+    
+    footer {
+        font-size: 16px;
     }
     
     .logo {
@@ -152,6 +156,10 @@ p {
         font-size: 18px;
     }
     
+    footer {
+        font-size: 18px;
+    }
+    
     .logo {
         width: 180px;
     }
@@ -161,7 +169,7 @@ p {
     }
     
     p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
@@ -169,10 +177,14 @@ p {
     .nav li {
         display: inline-block;
     }
+    
     .nav {
         text-align: right;
+        font-size: 20px;`
+    }
+    
+    footer {
         font-size: 20px;
-        padding-top: 15px;
     }
     
     .logo {
@@ -190,6 +202,6 @@ p {
     }
     
     p {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
