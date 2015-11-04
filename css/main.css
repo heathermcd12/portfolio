@@ -35,8 +35,11 @@ body {
 }
 
 .logo {
-    display: block;
-    width: 100%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
 }
 
 a {
@@ -61,11 +64,14 @@ a {
 .nav .nav-current:link,
 .nav .nav-current:visited {
   color: black;
+  text-decoration: none;
   border-bottom: 1px solid black;
 }
 
 .top-nav {
-    padding-top: 20px;
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
 }
 
 .banner {
@@ -147,7 +153,7 @@ p {
 
 .intern {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -165,7 +171,6 @@ p {
     }
     
     .logo {
-        width: 160px;
         text-align: center;
     }
     
@@ -189,12 +194,26 @@ p {
     
     .logo {
         width: 180px;
+        left: 3%;
+        -webkit-transform: translateX(-5%);
+        transform: translateX(-5%);
+    }
+    
+    .top-nav {
+        padding-top: 0px;
+    }
+    
+    .masthead {
+        padding-bottom: 100px;
     }
     
     .intro {
         font-size: 18px;
     }
 
+    .intern {
+        margin-left: 50px;
+        margin-right: 50px;
 }
 
 @media only screen and (min-width: 60em) {
@@ -205,6 +224,10 @@ p {
     .nav {
         text-align: right;
         font-size: 20px;`
+    }
+    
+    .top-nav {
+        padding-top: 0px;
     }
     
     footer {
@@ -224,6 +247,10 @@ p {
     .intro {
         font-size: 20px;
     }
+    
+    .intern {
+        margin-left: 150px;
+        margin-right: 150px;
 
 
 }
