@@ -131,6 +131,14 @@ p {
     outline: 3px solid #3f5cff;
 }
 
+.hand {
+    height: 200px;
+}
+
+.intern {
+    text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
@@ -147,6 +155,7 @@ p {
     
     .logo {
         width: 160px;
+        text-align: center;
     }
     
     p {
