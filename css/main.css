@@ -123,6 +123,7 @@ p {
 
 .embed-16by9 {
     padding-top: 56.25%;
+    border-bottom-color: #F7F8FF;
 }
 
 .btn-video {
