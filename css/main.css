@@ -252,6 +252,11 @@ p {
     .intern {
         margin-left: 150px;
         margin-right: 150px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
 
 
 }
