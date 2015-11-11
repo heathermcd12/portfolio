@@ -78,10 +78,6 @@ a {
     text-align: center;
 }
 
-.portfolio {
-    text-align: center;
-} 
-
 h1 {
     line-height: 5%;
 }
@@ -92,6 +88,10 @@ h5 {
 
 p {
     color: black;
+}
+
+left-type {
+    text-align: left;
 }
 
 .blue {
@@ -148,19 +148,24 @@ p {
     position: relative;
 }
 
+/*
+
 .portfolio-img-link:hover img{
     outline: 3px solid #3f5cff;
 }
 
+*/
+
 .details {
     position: absolute;
     opacity: 0;
-    left: 45px;
-    top: 45px;
-    right: 45px;
-    bottom: 45px;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
     background-color: white;
     border: 0;
+    outline: 2px solid #3f5cff;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -186,7 +191,8 @@ p {
 }
 
 .portfolio-img-link:hover .details {
-    opacity: 1;
+    opacity: .95;
+    color: black;
 }
 
 .hand {
