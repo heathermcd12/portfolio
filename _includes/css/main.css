@@ -10,7 +10,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Cutive Mono", serif;
+  font-family: "adobe-caslon-pro-n4",serif;
+  font-style: normal;
+  font-weight: 400;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -166,7 +168,7 @@ left-type {
     bottom: 20px;
     background-color: white;
     border: 0;
-    outline: 1px solid #3f5cff;
+    outline: 2px solid black;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
