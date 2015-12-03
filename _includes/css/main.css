@@ -81,6 +81,14 @@ a {
 .banner {
     text-align: center;
 }
+.intro {
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.width-fix {
+    max-width: 44em;
+}
 
 h1 {
     line-height: 5%;
