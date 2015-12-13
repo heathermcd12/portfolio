@@ -149,6 +149,11 @@ left-type {
     width: 100%;
 }
 
+video {
+    object-fit: cover;
+    color: #faffff;
+}
+
 .embed-16by9 {
     padding-top: 56.25%;
     border-bottom-color: #F7F8FF;
