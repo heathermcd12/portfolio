@@ -78,6 +78,25 @@ a {
     text-align: center;
 }
 
+.prev-button {
+    text-align: left;
+}
+
+.next-button {
+    text-align: right;
+}
+
+.project-nav a:hover,
+.project-nav a:focus,
+.project-nav a:active,
+.project-nav .project-nav-current:link,
+.project-nav .project-nav-current:visited {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+
 .banner {
     text-align: center;
 }
