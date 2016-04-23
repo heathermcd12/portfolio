@@ -10,7 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Cutive Mono", monospace ;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #000C62;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -19,8 +20,16 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #faffff;
+    background-color: #F2FAF9;
     font-weight: 400;
+}
+
+.black-background {
+    background-color: #000027;
+}
+
+.white {
+    color: white;
 }
 
 .flex {
@@ -47,13 +56,19 @@ body {
 a {
     color: #3f5cff;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 300;
 }
+
+.light-a {
+    color: #B1E3DC;
+}
+
 
 .nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    letter-spacing: .4px;
     
 }
 
@@ -67,23 +82,32 @@ a {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  color: black;
+  color: #B1E3DC;
   text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #B1E3DC;
 }
 
 .top-nav {
     position: relative;
     padding-top: 150px;
     text-align: center;
+    letter-spacing: .4px;
+}
+
+.project-nav {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: .4px;
 }
 
 .prev-button {
     text-align: left;
+    letter-spacing: .4px;
 }
 
 .next-button {
     text-align: right;
+    letter-spacing: .4px;
 }
 
 .project-nav a:hover,
@@ -111,38 +135,59 @@ a {
 
 h1 {
     line-height: 1;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .4px;
 }
 
 h2 {
-    line-height: 1;
-    font-weight: 400;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .4px;
 }
 
 h3 {
     line-height: 1;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .4px;
 }
 
 h4 {
     line-height: 1;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .4px;
 }
 
 
 h5 {
     line-height: 1;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .4px;
 }
 
 h7 {
-    font-weight: 400;
+    line-height: 1;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .4px;
 }
 
 
 p {
-    color: black;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .4px;
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .4px;
 }
 
 left-type {
@@ -251,8 +296,8 @@ video {
 }
 
 .portfolio-img-link:hover .details {
-    opacity: .99;
-    color: black;
+    opacity: .97;
+    color: #000C62;
 }
 
 .hand {
@@ -263,6 +308,18 @@ video {
     text-align: center;
     padding-top: 25px;
 }
+
+.underline {
+    text-decoration: none;
+    border-bottom: 1px solid #3f5cff;
+}
+
+.underline-light {
+    text-decoration: none;
+    border-bottom: 1px solid #B1E3DC;
+}
+
+    
 
 @media only screen and (min-width: 25em) {
     .nav li {
@@ -284,6 +341,11 @@ video {
     
     p {
         font-size: 16px;
+        font-weight: 400;
+    }
+    
+    li {
+        font-weight: 400;
     }
 }
 
@@ -293,11 +355,11 @@ video {
     }
     .nav {
         text-align: right;
-        font-size: 18px;
+        font-size: 16px;
     }
     
     footer {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .logo {
@@ -316,7 +378,7 @@ video {
     }
     
     .intro {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .intern {
@@ -331,7 +393,7 @@ video {
     
     .nav {
         text-align: right;
-        font-size: 20px;`
+        font-size: 16px;`
     }
     
     .top-nav {
@@ -339,7 +401,7 @@ video {
     }
     
     footer {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .logo {
@@ -353,7 +415,7 @@ video {
     }
     
     .intro {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .intern {
@@ -363,6 +425,12 @@ video {
     
     p {
         font-size: 18px;
+        font-weight: 400;
+    }
+    
+    li {
+        font-size: 18px;
+        font-weight: 400;
     }
 
 
