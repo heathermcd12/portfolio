@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Circular", "Helvetica", sans-serif;
   color: #000C62;
 }
 *, *:before, *:after {
@@ -53,27 +53,46 @@ body {
     z-index: 1000;
 }
 
+.logo-center {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: 1000;
+}
+
 a {
+    text-align: center;
     color: #3f5cff;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .light-a {
     color: #B1E3DC;
 }
 
-
 .nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    letter-spacing: .4px;
+    letter-spacing: .7px;
+    font-size: 20px;
     
 }
 
 .nav a {
     display: block;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 .nav a:hover,
@@ -84,14 +103,14 @@ a {
 .nav .nav-current:visited {
   color: #B1E3DC;
   text-decoration: none;
-  border-bottom: 1px solid #B1E3DC;
+  /*border-bottom: 1px solid #B1E3DC;*/
 }
 
 .top-nav {
     position: relative;
-    padding-top: 150px;
-    text-align: center;
-    letter-spacing: .4px;
+    padding-top: 175px;
+    letter-spacing: .7px;
+    font-weight: 500;
 }
 
 .project-nav {
@@ -185,9 +204,9 @@ p {
 
 li {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
-    letter-spacing: .4px;
+    letter-spacing: .5px;
 }
 
 left-type {
@@ -319,6 +338,9 @@ video {
     border-bottom: 1px solid #B1E3DC;
 }
 
+.title {
+    text-align: center;
+}
     
 
 @media only screen and (min-width: 25em) {
@@ -327,8 +349,11 @@ video {
     }
     
     .nav {
-        font-size: 16px;
         text-align: center;
+    }
+    
+    .top-nav {
+        padding-top: 150px;
     }
     
     footer {
@@ -355,7 +380,6 @@ video {
     }
     .nav {
         text-align: right;
-        font-size: 16px;
     }
     
     footer {
@@ -370,7 +394,7 @@ video {
     }
     
     .top-nav {
-        padding-top: 0px;
+        padding-top: 15px;
     }
     
     .masthead {
@@ -393,11 +417,10 @@ video {
     
     .nav {
         text-align: right;
-        font-size: 16px;`
     }
     
     .top-nav {
-        padding-top: 0px;
+        padding-top: 18px;
     }
     
     footer {
@@ -429,7 +452,7 @@ video {
     }
     
     li {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
     }
 

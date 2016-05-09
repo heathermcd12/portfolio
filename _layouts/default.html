@@ -5,6 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,300italic,400italic,600,600italic|Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+    <script src="/path/to/masonry.pkgd.min.js"></script>
     <meta charset="utf-8">
     <title> Heather Lynn - Design</title>
     <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico">
@@ -17,7 +18,7 @@
 <body>
    <main role="main">
         
-<header class="masthead grid island-1-2" role="navigation">
+<!--<header class="masthead grid island-1-2" role="navigation">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
             <a href="{{site.baseurl}}/">
                 <img src="{{site.baseurl}}/images/logo.svg" class="logo">
@@ -25,18 +26,35 @@
         </div>
     
         <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
-            <ul class="nav gutter top-nav pad-t">
+            <ul class="nav gutter top-nav"> 
+                <li><a class="island-1-2" href="{{site.baseurl}}/animation">Animation</a></li>
+                <li><a class="island-1-2" href="{{site.baseurl}}/branding">Branding</a></li>
+                <li><a class="island-1-2" href="{{site.baseurl}}/illustration">Illustration</a></li>
+                <li><a class="island-1-2" href="{{site.baseurl}}/print">Print</a></li>
                 <li><a class="island-1-2" href="{{site.baseurl}}/about">About me</a></li>
-                <li><a class="island-1-2" href="{{site.baseurl}}/#work">Projects</a></li>
             </ul>
         </div>
 </header>
+-->
+       <header class="masthead grid island-1-2" role="navigation">
+           <div class="nav center-nav gutter top-nav unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+                <a class="island left" href="{{site.baseurl}}/about">About me</a>
+           </div>
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-1-3">
+                <a href="{{site.baseurl}}/">
+                <img class="logo-center" src="{{site.baseurl}}/images/logo.svg" class="logo">
+                </a>
+           </div>
+           <div class="nav center-nav gutter top-nav unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+                <a class="island right" href="{{site.baseurl}}/#work">Projects</a>
+           </div>
+        </header>
 
 {{content}}
        
 <div class="pad-t-2 banner gutter-1-2 push-2">
         <div class="island-1-4 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-            <h7 class="pad-top">Like my work?<a class="underline island-1-2" href="mailto:hello@heatherlynn.ca">Let's chat!</a></h7>
+            <h7 class="pad-top center-text">Like my work?<a class="underline island-1-2" href="mailto:hello@heatherlynn.ca">Let's chat!</a></h7>
 </div>
 </div>
     
@@ -45,10 +63,11 @@
             <p class="push-0 island-1-2">© Heather Lynn <strong>·</strong> 2015/2016</p>
         </div>
         <nav class="unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4">
-        <ul class="nav">
+        <ul class="nav bottom-nav">
         
             <li><a class="island-1-2" href="https://www.behance.net/heather-lynn">Behance</a></li>
             <li><a class="island-1-2" href="https://www.instagram.com/viedeheather/">Instagram</a></li>
+            </ul>
             
         </nav>
     </footer>
