@@ -319,6 +319,10 @@ video {
     color: #000C62;
 }
 
+.portrait {
+    outline: 8px solid #F2FAF9;
+}
+
 .hand {
     height: 200px;
 }
