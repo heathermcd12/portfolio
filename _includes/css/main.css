@@ -284,13 +284,12 @@ video {
 .details {
     position: absolute;
     opacity: 0;
-    left: 20px;
-    top: 20px;
-    right: 20px;
-    bottom: 20px;
-    background-color: white;
+    left: 35px;
+    top: 35px;
+    right: 35px;
+    bottom: 35px;
+    background-color: #F2FAF9;
     border: 0;
-    outline: 2px solid black;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -316,7 +315,7 @@ video {
 }
 
 .portfolio-img-link:hover .details {
-    opacity: .97;
+    opacity: .99;
     color: #000C62;
 }
 
