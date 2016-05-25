@@ -44,17 +44,8 @@ body {
     margin: 0 auto;
 }
 
-.logo {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 200px;
-    z-index: 1000;
-}
-
 .logo-center {
-    position: absolute;
+    position: fixed;
     text-align: center;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -242,7 +233,6 @@ left-type {
 }
 
 video {
-    object-fit: cover;
     color: #faffff;
 }
 
