@@ -99,7 +99,6 @@ a {
 
 .top-nav {
     position: relative;
-    padding-top: 175px;
     letter-spacing: .7px;
     font-weight: 500;
 }
@@ -347,8 +346,11 @@ video {
     }
     
     .top-nav {
-        padding-top: 140px;
-    }
+    position: relative;
+    padding-top: 50px;
+    letter-spacing: .7px;
+    font-weight: 500;
+}
     
     footer {
         font-size: 16px;
@@ -378,6 +380,16 @@ video {
     .footer {
         text-align: center;
     }
+    
+    .logo-center {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: 1000;
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -427,6 +439,15 @@ video {
     .footer {
         text-align: left;
     }
+    
+    .logo-center {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: 1000;
 }
 
 @media only screen and (min-width: 60em) {
