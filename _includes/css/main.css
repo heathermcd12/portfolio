@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: "Circular", "Helvetica", sans-serif;
-  color: #000C62;
+  color: black;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -25,7 +25,7 @@ body {
 }
 
 .black-background {
-    background-color: #000027;
+    background-color: black;
 }
 
 .white {
