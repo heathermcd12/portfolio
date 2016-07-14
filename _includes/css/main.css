@@ -199,6 +199,10 @@ left-type {
     text-align: left;
 }
 
+center-text {
+    text-align: center;
+}
+
 .blue {
     color: #3f5cff;
 }
