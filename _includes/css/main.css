@@ -10,8 +10,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Circular", "Helvetica", sans-serif;
-  color: #404041;
+  font-family: 'Inknut Antiqua', serif;
+  /*font-family: "Circular", "Helvetica", sans-serif;
+  color: #404041; */
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -142,16 +143,15 @@ a {
 }
 
 h1 {
+    font-size: 105px;
     line-height: 1;
     font-weight: 500;
-    font-family: "Circular", "Helvetica", sans-serif;
     letter-spacing: .4px;
 }
 
 h2 {
     line-height: 1.5;
     font-weight: 500;
-    font-family: "Circular", "Helvetica", sans-serif;
     letter-spacing: .4px;
     text-align: left;
 }
@@ -159,14 +159,12 @@ h2 {
 h3 {
     line-height: 1;
     font-weight: 500;
-    font-family: "Circular", "Helvetica", sans-serif;
     letter-spacing: .4px;
 }
 
 h4 {
     line-height: 1;
     font-weight: 500;
-    font-family: "Circular", "Helvetica", sans-serif;
     letter-spacing: .4px;
 }
 
@@ -174,14 +172,12 @@ h4 {
 h5 {
     line-height: 1;
     font-weight: 500;
-    font-family: "Circular", "Helvetica", sans-serif;
     letter-spacing: .4px;
 }
 
 h7 {
     line-height: 1.25;
     font-weight: 500;
-    font-family: "Circular", "Helvetica", sans-serif;
     letter-spacing: .4px;
 }
 
