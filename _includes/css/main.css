@@ -404,14 +404,19 @@ video {
         text-align: center;
     }
     
+    .sign {
+        padding-top: 50px;
+    }
+    
     .logo-center {
     position: absolute;
     text-align: center;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 75px;
+    width: 200px;
     z-index: 1000;
+    padding-bottom: 100px;
     }
 
     .portfolio {
