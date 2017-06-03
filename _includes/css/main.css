@@ -10,9 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: bookmania, serif;
+  font-family: "orpheuspro",serif;
     font-style: normal;
-    font-weight: 300, 700;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -75,7 +74,7 @@ h1 {
 
 a {
     text-align: center;
-    color: #0047F1;
+    color: gray;
     text-decoration: none;
     font-weight: 500;
 }
