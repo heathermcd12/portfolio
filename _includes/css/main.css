@@ -88,7 +88,7 @@ a {
     padding: 0;
     list-style-type: none;
     letter-spacing: .7px;
-    font-size: 20px;
+    font-size: 22px;
     
 }
 
@@ -205,11 +205,12 @@ p {
     line-height: 1.5;
     letter-spacing: .4px;
     text-align: left;
+    font-size: 20px;
 }
 
 li {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     letter-spacing: .5px;
 }
@@ -272,7 +273,7 @@ video {
 
 .info {
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: -15px;
 }
 
@@ -290,7 +291,7 @@ video {
 
 .details {
     position: absolute;
-    opacity: 0;
+    opacity: 100;
     left: 29px;
     top: 29px;
     right: 29px;
@@ -375,7 +376,7 @@ video {
     }
     
     footer {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .logo {
@@ -383,7 +384,7 @@ video {
     }
     
     p {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
     }
     
@@ -441,7 +442,7 @@ video {
     }
     
     footer {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .logo {
@@ -452,7 +453,7 @@ video {
     }
     
     .top-nav {
-        padding-top: 15px;
+        padding-top: 20px;
     }
     
     .masthead {
@@ -460,7 +461,7 @@ video {
     }
     
     .intro {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .intern {
@@ -510,11 +511,11 @@ video {
     }
     
     .top-nav {
-        padding-top: 18px;
+        padding-top: 20px;
     }
     
     footer {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .logo {
@@ -528,7 +529,7 @@ video {
     }
     
     .intro {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .intern {
@@ -537,12 +538,12 @@ video {
     }
     
     p {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 400;
     }
     
     li {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
     }
     
