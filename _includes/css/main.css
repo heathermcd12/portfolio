@@ -368,6 +368,7 @@ video {
     .top-nav {
     position: relative;
     padding-top: 50px;
+    padding-bottom: 25px;
     letter-spacing: .7px;
     font-weight: 500;
 }
