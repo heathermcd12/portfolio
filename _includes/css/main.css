@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Lusitana", serif;
   font-style: normal;
-  color: #797dd2;  
+  color: black;  
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -76,7 +76,7 @@ h1 {
 
 a {
     text-align: center;
-    color: #4B0082;
+    color: #797dd2;
     text-decoration: none;
     font-weight: 500;
 }
